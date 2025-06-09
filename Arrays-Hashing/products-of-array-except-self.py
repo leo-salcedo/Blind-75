@@ -22,3 +22,6 @@ def productExceptSelf(self, nums) :
     # For the suffix array, loop backwards in the in the original list starting from the second to last element, and set the current
     # index in the suffix array to be the product of the next element ([i + 1]) in the suffix array and the next element in the original list.
     # Finally, create another list and set its indices to be the product of the same index in the prefix and suffix arrays.
+
+# Time complexity - O(n)
+# Space complexity - O(n)
