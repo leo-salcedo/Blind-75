@@ -30,3 +30,6 @@ def characterReplacement(self, s, k):
     # more than k replacements are needed), decrement the count of the character at the left pointer since it is no longer 
     # considered in the new window and shrink the window by advancing the left pointer.
     # Once the above loop breaks, then update the max window length accordingly.
+
+# Time complexity - O(n)
+# Space complexity - O(n)
