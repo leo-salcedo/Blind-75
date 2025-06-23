@@ -19,4 +19,4 @@ def reverseList(self, head):
     # After the loop breaks, prev will be pointing to the new head of the reversed list. Return it.
 
 # Time complexity - O(n)
-# Space complexity - O(n)
+# Space complexity - O(1)
