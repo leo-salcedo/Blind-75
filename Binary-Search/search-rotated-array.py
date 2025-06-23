@@ -39,7 +39,7 @@ def search(self, nums, target):
         # right pointer is the greatest element in the right portion.
         # Convince yourself - eg. 4 5 6 7 0 1 2    (target = 5)
         #                         L     M     R
-    #
+    
     # Initialize our left and right pointers for the binary search.
     # In the loop, calculate the midpoint. If the mid equals the target, return the index of mid.
     # Otherwise, check if the left pointer is less than or equal to the mid. If it is, then
@@ -52,3 +52,6 @@ def search(self, nums, target):
     # than the right pointer, set the right pointer to be mid - 1 to throw the right portion away.
     # If neither are true, then set the left pointer to be mid + 1 to throw the left portion away.
     # When the loop breaks, return -1 to show the target was not found.
+
+# Time complexity - O(log(n))
+# Space complexity - O(1)
